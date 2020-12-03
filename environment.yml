@@ -1,0 +1,24 @@
+name: voiceclone
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - ffmpeg
+  - pytorch>=1.0.1
+  - tensorflow==1.15
+  - umap-learn
+  - visdom
+  - librosa=0.8.0
+  - numpy
+  - matplotlib==3.3.0
+  - scipy==1.1.0
+  - tqdm==4.24.0
+  - Unidecode
+  - inflect
+  - multiprocess
+  - numba
+  - pip:
+      - PyQt5
+      - sounddevice
+      - SoundFile
